@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="tab-icon.ico" type="image/x-icon">
+  <title>Lesson 12</title>
+</head>
+
+<body>
+  <form>
+    <label>Имя
+      <br>
+      <input type="text" tabindex="1" title="Имя">
+    </label>
+    <br>
+    <label>Фамилия
+      <br>
+      <input type="text" tabindex="2" title="Фамилия">
+    </label>
+    <br>
+    <label>Телефон
+      <br>
+      <input type="tel" tabindex="3" title="Телефон">
+    </label>
+    <br>
+    <label>Дата рождения
+      <br>
+      <input type="date" tabindex="4" title="Дата рождения">
+    </label>
+    <br>
+    <label>Почта
+      <br>
+      <input type="email" tabindex="5" title="Почта">
+    </label>
+    <br>
+    <fieldset>
+      <legend tabindex="6">Выберете количество огурцов для доставки 
+        <br>
+        <label>
+          <input type="radio" name="radio1">
+          Один огурец</label>
+        <label>
+          <input type="radio" name="radio1">
+          Два огурца</label>
+        <label>
+          <input type="radio" name="radio1">
+          Три огурца</label>
+      </legend>
+    </fieldset>
+    <br>
+    <input type="submit" value="Отправить" tabindex="7">
+    <input type="reset" value="Очистить" tabindex="9">
+  </form>
+</body>
+
+</html>
