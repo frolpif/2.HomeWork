@@ -1,0 +1,11 @@
+p.text--bold {
+color: brown;
+}
+
+.parent-1>.child-1 {
+  color: rebeccapurple;
+}
+
+a[href="https://webdesign.tutsplus.com/ru/tutorials/the-30-css-selectors-you-must-memorize--net-16048"] {
+  color: #1f6053; 
+}

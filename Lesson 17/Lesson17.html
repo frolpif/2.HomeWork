@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="tab-icon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <title>CSS Lesson 3</title>
+</head>
+<body>
+  <!-- структура по БЭМ
+  https://doka.guide/ -->
+
+    <!-- каждый элемент блока имеет разный стиль. если бы каждый элемент в навигавии был единого стиля, то думаю, 
+    например, main_nav-block__item. 
+    только сам хедер начинаю описывать ниже поиска -->
+<div class="main_nav-block">
+  <div class="main_nav-block__HTML"></div>
+  <div class="main_nav-block__CSS"></div>
+  <div class="main_nav-block__JavaScript"></div>
+  <div class="main_nav-block__recipes"></div>
+  <div class="main_nav-block__accessibility"></div>
+  <div class="main_nav-block__webplatform"></div>
+</div>
+
+<div class="about">
+  <div class="about__row1">
+    <div class="about__title"></div>
+    <div class="about__content"></div>
+    <div class="nav">
+      <div class="nav__item"></div>
+      <div class="nav__item"></div>
+      <div class="nav__item"></div>
+    </div>
+  </div>
+  <!-- row2 из-за другого фона. если бы фон одинаковый, то можно было бы единый класс, например, row -->
+  <div class="about__row2">
+    <!-- вижу, что наименование жирным выделено, но для структуры представляем, что заголовок такой же как в первой колонке )) -->
+    <div class="about__title"></div>
+    <div class="about__content"></div>
+    <!-- тут стиль как у ссылок с навигации с нижних колонок, решила так оставить -->
+    <div class="nav">
+  </div>
+</div>
+
+<!-- я так глянула в коде и у них всё описано, конечно же, по БЭМ, но смысла не вижу в копипасте, поэтому я так накинула своим взглядом. 
+на сайте видно, что в первом блоке стиль у ссылки другой и т.д., но общий принцип вроде понятен  -->
+<div class="main-content">
+  <div class="main-content__item">
+    <div class="main-content_link"></div>
+    <div class="main-content_info"></div>
+  </div>
+  <div class="main-content__item">
+    <div class="main-content_link"></div>
+    <div class="main-content_info"></div>
+  </div>
+  <div class="main-content__item">
+    <div class="main-content_link"></div>
+    <div class="main-content_info"></div>
+  </div>
+  <div class="main-content__item">
+    <div class="main-content_link"></div>
+    <div class="main-content_info"></div>
+  </div>
+  <div class="main-content__item">
+    <div class="main-content_link"></div>
+    <div class="main-content_info"></div>
+  </div>
+  <div class="main-content__item">
+    <div class="main-content_link"></div>
+    <div class="main-content_info"></div>
+  </div>
+</div>
+<!-- до кнопки "Показать еще" описала.  -->
+</body>
+</html>
