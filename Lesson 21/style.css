@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Saira-extracondensed regular" ;
+  font-weight: 400;
+  font-style: normal;
+  /* src: local("Saira-extracondensed-regular"), local("Saira-extracondensed-semibold"), */
+  src: url("fonts/saira-extracondensed-regular.eot") format("eot"),
+  url("fonts/saira-extracondensed-regular.woff") format("woff"),
+  url("fonts/saira-extracondensed-regular.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Saira-extracondensed semibold" ;
+  font-weight: 600;
+  font-style: normal;
+  /* src: local("Saira-extracondensed-regular"), local("Saira-extracondensed-semibold"), */
+  src: url("fonts/saira-extracondensed-semibold.eot") format("eot"),
+  url("fonts/saira-extracondensed-semibold.woff") format("woff"),
+  url("fonts/saira-extracondensed-semibold.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Saira-extracondensed medium" ;
+  font-weight: 500;
+  font-style: normal;
+  src: url("fonts/saira-extracondensed-medium.eot") format("eot"),
+  url("fonts/saira-extracondensed-medium.woff") format("woff"),
+  url("fonts/saira-extracondensed-medium.woff2") format("woff2");
+  font-display: swap;
+}
+
+.text-1{
+  color: grey;
+  font-weight: 400;
+  font-family:"Saira-extracondensed regular" ;
+  text-indent: 15px;
+}
+.text-2{
+  color: grey;
+  font-weight: 500;
+  font-family:"Saira-extracondensed medium" ;
+  text-indent: 15px;
+}
+.text-3{
+  color: grey;
+  font-weight: 600;
+  font-family:"Saira-extracondensed semibold" ;
+  text-indent: 15px;
+}
+.text-4{
+  color: grey;
+  font-weight: 1;
+  font-style: italic;
+  font-family: 'Ysabeau Office', sans-serif; ;
+  text-indent: 15px;
+}

@@ -1,0 +1,12 @@
+
+.text-1{
+  color: rgba(0, 0, 0, 0.674);
+  font-family: 'Ysabeau Office', sans-serif; 
+  font-weight: 100;
+  padding: 25px 25px 0 25px;
+  height: 100px;
+  background-color: #bb7e7e;
+  overflow: auto;
+  width: 50%;
+  box-shadow: 5px 5px 5px #8b606031 ;
+}
