@@ -1,0 +1,12 @@
+.menu{
+background-color: rgba(105, 11, 105, 0.347);
+width: 20%;
+}
+
+.menu__item{
+color:gray;
+}
+
+.menu__item:first-child:hover{
+  color: red;
+}

@@ -1,0 +1,20 @@
+.flexbox{
+  background-color: brown;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5%;
+  
+}
+
+.flexbox__item{
+  background-color: rgb(87, 47, 47);
+  width: 200px;
+  height: 200px;
+  }
+
+.flexbox__item:nth-child(3){
+  width: 500px;
+  height: 500px;
+
+}
