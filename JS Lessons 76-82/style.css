@@ -1,0 +1,12 @@
+
+.title-1{
+  color: rgba(150, 90, 90, 0.818);
+  font-size: 10px;
+  font-weight: 700;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-indent: 5rem;
+}
+.title-1__child{
+  font-size: 3rem;
+  line-height: 200%;
+}
