@@ -17,5 +17,35 @@
       }
 
   }
+}
+)()
 
-})()
+const btn = document.querySelector('.about__img-button')
+const modal = document.querySelector('.body')
+
+const openModal = () => {
+  modal.classList.add('body--opened-modal')
+}
+
+const closeModal = () => {
+  modal.classList.remove('body--opened-modal')
+}
+
+
+btn.addEventListener('click', openModal)
+modal.addEventListener('click', event =>{
+ event.preventDefault()
+  const target = event.target
+  console.log(target)
+  if (target && target.classList.contains('modal') || target.closest('.modal__cancel')){
+    closeModal()
+  }
+})
+
+document.addEventListener('keydown', event => {
+  if (event.code === 'Escape' && modal.classList.contains('body--opened-modal')){
+    closeModal()
+  }
+})
+
+
